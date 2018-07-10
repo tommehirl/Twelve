@@ -50,7 +50,7 @@ sprint = 2
 damage = 30
 
 attackOneEquipped = "firespell"
-attackTwoEquipped = "firespell"
+attackTwoEquipped = "slash"
 
 </string>
           </argument>
