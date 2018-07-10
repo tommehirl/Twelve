@@ -40,6 +40,7 @@
       <object>objects\obj_mike2</object>
       <object>objects\obj_mike3</object>
     </objects>
+    <object>objects\obj_roomchoice</object>
     <object>objects\obj_control</object>
     <object>objects\obj_bush</object>
     <object>objects\obj_collide</object>
@@ -55,6 +56,8 @@
   <rooms name="rooms">
     <room>rooms\rm_create</room>
     <room>rooms\rm_test</room>
+    <room>rooms\rm_choose</room>
+    <room>rooms\rm_aitest</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
