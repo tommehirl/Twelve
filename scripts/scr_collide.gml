@@ -8,6 +8,7 @@ if(place_meeting(x+hsp,y,obj_collide))
         until place_meeting(x+sign(hsp),y,obj_collide)
         break
     }
+    x -= sign(hsp)
     hsp = 0
 }
 
@@ -19,6 +20,7 @@ if(place_meeting(x,y+vsp,obj_collide))
         until place_meeting(x,y+vsp,obj_collide)
         break
     }
+    y -= sign(vsp)
     vsp = 0
 }
 /*if(!place_free(x+hsp,y))
