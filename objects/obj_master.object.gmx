@@ -153,7 +153,7 @@ if(global.shiftbutton)
 }
 
 //runs collision script
-scr_collide()
+scr_collide(0)
 //moves the character by its current speed (normalized to 60 fps using delta time)
 
 if(!global.targetting)
